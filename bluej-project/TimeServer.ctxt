@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TimeServer
+comment0.text=\n\ Objekte\ dieser\ Klasse\ repraesentieren\ einen\ TimeServer.\ Nach\ Aufruf\ von\ `startServer()`\ wird\ ein\ Socket\ geoeffnet,\ welche\ TCP-Verbindungen\ annimmt\ und\ dann\ an\ TimeServerJob-Threads\ delegiert.\n
+comment1.params=port
+comment1.target=TimeServer(int)
+comment2.params=
+comment2.target=void\ run()
+comment3.params=
+comment3.target=void\ startServer()
+numComments=4

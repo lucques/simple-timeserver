@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TimeServerJob
+comment0.text=\n\ Objekte\ dieser\ Klasse\ repraesentieren\ einen\ "Job"\ auf\ Server-Seite.\ Pro\ TCP-Verbindung\ gibt\ es\ einen\ Job,\ der\ sich\ um\ diese\ Verbindung\ kuemmert.\n
+comment1.params=socket
+comment1.target=TimeServerJob(java.net.Socket)
+comment2.params=
+comment2.target=void\ run()
+comment3.params=message
+comment3.target=void\ println(java.lang.String)
+numComments=4
