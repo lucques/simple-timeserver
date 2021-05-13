@@ -19,7 +19,7 @@ Ein Aufruf von `start()` sorgt dafür, dass der Thread gestartet wird. Der Code,
 
 ## Komponenten
 
-Wir haben es hier mit Objekten folgender Klassen zu tun:
+Drei der oben genannten Objekt-Typen, also Klassen, bilden die Hauptkomponenten und werden im Folgenden genauer beschrieben.
 - `TimeServer`: Ein `TimeServer`-Objekt soll einen Server repräsentieren.
     - *Attribute*:
         - `port`: Auf welchem Port soll der Server gestartet werden?
