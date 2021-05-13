@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=TimeClient
-comment0.text=\n\ Objekte\ dieser\ Klasse\ repraesentieren\ einen\ Client.\ Eine\ TCP-Verbindung\ wird\ direkt\ bei\ Objekterzeugung\ aufgebaut.\n
+comment0.text=\n\ Ein\ Objekt\ dieser\ Klasse\ repraesentiert\ einen\ Client,\ welcher\ die\ Uhrzeit\ von\ einem\ `TimeServer`\ erfragen\ kann.\n\ Eine\ TCP-Verbindung\ wird\ direkt\ bei\ Objekterzeugung\ aufgebaut.\n
 comment1.params=serverPort
 comment1.target=TimeClient(int)
 comment2.params=

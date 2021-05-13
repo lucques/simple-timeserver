@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=TimeServerJob
-comment0.text=\n\ Objekte\ dieser\ Klasse\ repraesentieren\ einen\ "Job"\ auf\ Server-Seite.\ Pro\ TCP-Verbindung\ gibt\ es\ einen\ Job,\ der\ sich\ um\ diese\ Verbindung\ kuemmert.\n
+comment0.text=\n\ Ein\ Objekt\ dieser\ Klasse\ repraesentiert\ einen\ Thread,\ der\ sich\ um\ eine\ einzelne\ TCP-Verbindung\ kuemmert.\n\ Insbesondere\ werden\ also\ Anfragen\ nach\ der\ Uhrzeit\ mit\ der\ aktuellen\ Uhrzeit\ beantwortet.\ Es\ koennen\ dabei\n\ mehrere\ Jobs\ parallel\ laufen,\ da\ es\ ja\ auch\ mehrere\ parallele\ TCP-Verbindungen\ gibt;\ hierfuer\ wird\ der\n\ Job\ als\ Thread\ ausgefuehrt.\n
 comment1.params=socket
 comment1.target=TimeServerJob(java.net.Socket)
 comment2.params=
