@@ -1,3 +1,4 @@
+// Diese Klasse hat nichts mit der Client/Server-App zu tun, sondern dient lediglich als Demonstration fuer eine Klasse.
 class Auto
 {
     private int idNr;

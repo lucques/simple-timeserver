@@ -1,4 +1,5 @@
-public class Rechteck
+// Diese Klasse hat nichts mit der Client/Server-App zu tun, sondern dient lediglich als Demonstration fuer eine Klasse.
+class Rechteck
 {
     private int breite;
     private int laenge;
