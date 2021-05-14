@@ -19,7 +19,7 @@ class TimeServer extends Thread {
         this.start();
     }
 
-    // Diese Methode wird (automatisch) aufgerufen, wenn `this.start()` im Konstruktor aufgerufen wird.
+    // Diese Methode wird (automatisch) aufgerufen, wenn der Server-Thread gestartet wird.
     public void run() {
         // Server-Empfangs-Socket oeffnen und auf Anfragen warten
         // Das `try` sorgt dafuer, dass falls ein Fehler in der Verbindung in `serverSocket` auftritt,
@@ -31,11 +31,11 @@ class TimeServer extends Thread {
             // In einer Endlosschleife eine Anfrage nach der anderen beantworten
             while (true) {
                 // Die naechste Zeile blockiert so lange, bis eine neue Verbindungsanfrage hereinkommt.
-                // Die neu ausgehandelte TCP-Verbindung kann dann ueber 'socket' verwendet werden.
+                // Die neu ausgehandelte TCP-Verbindung kann dann ueber `socket` verwendet werden.
                 Socket socket = serverSocket.accept();
                 
-                // Fuer jede Verbindung wird ein neuer `TimeServerJob`-Objekt erstellt und in einem eigenen Thread gestartet.
-                // Dadurch koennen mehrere Jobs parallel laufen.
+                // Fuer jede Verbindung wird ein neues `TimeServerJob`-Objekt erstellt und in einem eigenen Thread gestartet.
+                // Somit koennen mehrere Jobs parallel laufen.
                 TimeServerJob job = new TimeServerJob(socket);
             }
         }

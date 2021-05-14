@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Auto
+comment1.params=idNr\ marke
+comment1.target=Auto(int,\ java.lang.String)
+comment2.params=gefahreneStrecke
+comment2.target=void\ erhoeheKilometerstand(int)
+comment3.params=
+comment3.target=int\ berechneMietpreisProTag()
+numComments=4

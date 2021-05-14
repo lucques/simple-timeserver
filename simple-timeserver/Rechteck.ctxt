@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Rechteck
+comment1.params=breite\ laenge
+comment1.target=Rechteck(int,\ int)
+comment2.params=
+comment2.target=void\ vervierfacheDich()
+comment3.params=
+comment3.target=int\ berechneFlaecheninhalt()
+comment4.params=
+comment4.target=int\ berechneUmfang()
+numComments=5

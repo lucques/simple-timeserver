@@ -5,7 +5,7 @@ Dieses Projekt demonstriert eine einfache Client-Server-App, die auf TCP aufbaut
 ## Verwendung
 
 1) Öffne den Ordner [`simple-timeserver`](simple-timeserver) mit BlueJ.
-2) Erzeuge ein neues `TimeServer`-Objekt und gibt den gewünschten Port ein, z.B. `1234`. Dies startet unmittelbar den Server in einem eigenen Thread.
+2) Erzeuge ein neues `TimeServer`-Objekt und gib den gewünschten Port ein, z.B. `1234`. Dies startet unmittelbar den Server in einem eigenen Thread.
 3) Erzeuge ein neues `TimeClient`-Objekt und gib den Port des Servers ein (hier z.B. `1234`). Eine Verbindung zum Server wird unmittelbar aufgebaut.
 4) Erfrage die Uhrzeit mit der `askTime()`-Methode des Clients.
 
